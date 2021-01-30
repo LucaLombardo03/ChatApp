@@ -102,7 +102,7 @@ public class ClientGUI extends JFrame implements ActionListener {
         btnStart = new JButton("START");
         panelCenter.add(btnStart);
         btnStart.addActionListener(this);
-        btnStart.setFont(new Font("Tahoma", Font.PLAIN, 12));
+        btnStart.setFont(new Font("Arial Black", Font.PLAIN, 12));
 
         JScrollPane scrollPane = new JScrollPane();
         panel.add(scrollPane, BorderLayout.CENTER);
@@ -124,7 +124,7 @@ public class ClientGUI extends JFrame implements ActionListener {
 
         btnSend = new JButton("SEND");
         btnSend.addActionListener(this);
-        btnSend.setFont(new Font("Tahoma", Font.PLAIN, 12));
+        btnSend.setFont(new Font("Arial Black", Font.PLAIN, 12));
         panelSouth.add(btnSend);
     }
 

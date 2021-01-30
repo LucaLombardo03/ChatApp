@@ -62,7 +62,7 @@ public class ServerGUI extends JFrame implements ActionListener {
         setContentPane(panel);
         panel.setLayout(new BorderLayout(0, 0));
         TitledBorder titleBorder = new TitledBorder("Server");
-        titleBorder.setTitleFont(new Font("Arial Black ", Font.BOLD, 15));
+        titleBorder.setTitleFont(new Font("Arial Black", Font.BOLD, 15));
         panel.setBorder(titleBorder);
 
         lblChatServer = new JLabel("SERVER");
